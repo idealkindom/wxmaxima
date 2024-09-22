@@ -2,6 +2,7 @@
 # 注意：翻译此文件时，需根据上下文，而非字面意思（有些文字的原文有误或不准确）。
 # Liu Rong, <rong.liu@mail.bnu.edu.cn>, 2020.
 # crickzhang1, <crickzhang1@gmail.com>, 2013.
+# cc,<iamcci@163.com>,2024.
 # Some strings in this Simplified Chinese translation have their roots
 # in the Tranditional Chinese translation (`zh_TW.po`).
 msgid ""
