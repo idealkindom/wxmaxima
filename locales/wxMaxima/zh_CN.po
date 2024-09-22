@@ -11,6 +11,7 @@ msgstr ""
 "POT-Creation-Date: 2024-05-09 09:09+0200\n"
 "PO-Revision-Date: 2021-01-20 20:14+0800\n"
 "Last-Translator: Liu Rong <rong.liu@mail.bnu.edu.cn>\n"
+"Last-Translator: cc <iamcci@163.com>\n"
 "Language-Team: amateur\n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +36,7 @@ msgid ""
 "Image was loaded from a .wxmx file"
 msgstr ""
 "\n"
-"以从 .wxmx 文件加载图像"
+"已从 .wxmx 文件加载图像"
 
 #: ../../src/wxMaxima.cpp:4150
 msgid " (File format (WXM version 1, first line of the file) not recognized)"
@@ -66,7 +67,7 @@ msgstr "%i 个单元格位于计算队列"
 #: ../../src/Worksheet.cpp:326
 #, c-format
 msgid "%s image, %li×%li, %li ppi"
-msgstr "%s 图像, 像素 %li×%li,分辨率 %li ppi"
+msgstr "%s 图片, 像素 %li×%li,分辨率 %li ppi"
 
 #: ../../src/Autocomplete.cpp:317
 #, fuzzy, c-format
@@ -306,15 +307,15 @@ msgstr "(设置文件要求不输出长单元)"
 
 #: ../../src/MathParser.cpp:1291
 msgid "(Invalid XML from maxima)"
-msgstr ""
+msgstr "Maxima中的无效XML"
 
 #: ../../src/wxMaxima.cpp:4141
 msgid "(Maybe a permission problem?)"
-msgstr ""
+msgstr "或许是一个许可问题?"
 
 #: ../../src/wxMaxima.cpp:9168
 msgid "(f(x),x,a,b)), Epsilon algorithm"
-msgstr ""
+msgstr "(f(x),x,a,b)), Epsilon算法"
 
 #: ../../src/wxMaxima.cpp:9155
 msgid "(f(x),x,a,b)), Strategy of Aind"
@@ -322,7 +323,7 @@ msgstr "(f(x),x,a,b)), Aind 策略"
 
 #: ../../src/wxMaxima.cpp:9178
 msgid "(f(x),x,a,b), (semi-) infinite interval"
-msgstr ""
+msgstr "(f(x),x,a,b), (半-) 无穷区间"
 
 #: ../../src/wxMaximaFrame.cpp:1858
 msgid "(f(x),x,a,b), Epsilon algorithm"
@@ -349,17 +350,17 @@ msgstr "... [由于输出长度超过设置中允许的长度，因此省略了�
 
 #: ../../src/Worksheet.cpp:6623
 msgid ".wxm clipboard data with unusual header"
-msgstr "带有不寻常文件头的 .wxm 剪切板数据"
+msgstr ".wxm 剪切板数据带有不寻常文件头"
 
 #: ../../src/wxMaxima.cpp:7966
 #, fuzzy
 msgid "1×n Matrix b:"
-msgstr "矩阵 #1："
+msgstr "1×n 矩阵x b:"
 
 #: ../../src/wxMaximaFrame.cpp:1329
 #, fuzzy
 msgid "2D Array to Matrix..."
-msgstr "映射至矩阵(&P)..."
+msgstr "二维数组映射到矩阵(&P)..."
 
 #: ../../src/wxMaximaFrame.cpp:770
 msgid "2D equations using ASCII Art"
@@ -407,7 +408,7 @@ msgstr "1个无理数变量"
 
 #: ../../src/Worksheet.cpp:1969
 msgid "A left-associative function"
-msgstr ""
+msgstr "1个左结合函数"
 
 #: ../../src/Worksheet.cpp:1972
 #, fuzzy
@@ -425,7 +426,7 @@ msgstr "1个有理数变量"
 
 #: ../../src/Worksheet.cpp:1971
 msgid "A right-associative function"
-msgstr ""
+msgstr "1个右结合函数"
 
 #: ../../src/wxMaximaFrame.cpp:1651
 msgid "A search-and-replace for equations"
@@ -669,7 +670,7 @@ msgstr ""
 
 #: ../../src/wxMaximaFrame.cpp:1823
 msgid "Approximate by nice fraction"
-msgstr ""
+msgstr "用分数近似"
 
 
 #: ../../src/wxMaxima.cpp:8851
@@ -686,7 +687,7 @@ msgstr "用多项式近似表示一个表达式"
 
 #: ../../src/wxMaxima.cpp:9394
 msgid "Apropos"
-msgstr "命令查找"
+msgstr "查找命令"
 
 #: ../../src/wxMaxima.cpp:7244
 msgid "Are the chars equal, if case is ignored?"
@@ -707,7 +708,7 @@ msgstr "这些字符是否相等?"
 
 #: ../../src/wxMaxima.cpp:7186
 msgid "Arguments:"
-msgstr ""
+msgstr "实参数:"
 
 #: ../../src/wxMaxima.cpp:8108
 #, fuzzy
@@ -717,7 +718,7 @@ msgstr "数组："
 #: ../../src/wxMaximaFrame.cpp:1040
 #, fuzzy
 msgid "Arrays"
-msgstr "数组："
+msgstr "数组族："
 
 #: ../../src/wxMaxima.cpp:7235 ../../src/wxMaxima.cpp:7281
 msgid "Ascii code to char"
@@ -828,7 +829,7 @@ msgstr "Bug: 自动补全请求的内容程序未知."
 
 #: ../../src/Worksheet.cpp:2945
 msgid "Bug: Cell left but not entered."
-msgstr "Bug: 以离开单元但未输入程序."
+msgstr "Bug: 已离开单元但未输入程序."
 
 #: ../../src/Worksheet.cpp:6156
 msgid "Bug: Cell with negative y position!"
@@ -869,20 +870,20 @@ msgid ""
 "Bug: Got a request to first change the contents of a cell and to then "
 "undelete it."
 msgstr ""
-"Bug: Got a request to first change the contents of a cell and to then "
-"undelete it."
+"Bug: 收到先改变单元内容然后 不删除它的请求. "
+
 
 #: ../../src/Worksheet.cpp:5528
 msgid "Bug: HTML output is no valid XML"
-msgstr "Bug: HTML output is no valid XML"
+msgstr "Bug: HTML输出不是有效的 XML"
 
 #: ../../src/Configuration.h:620
 msgid "Bug: Maximum number of digits that is to be displayed is too low!"
-msgstr "Bug: Maximum number of digits that is to be displayed is too low!"
+msgstr "Bug: 要显示的小数位数最大值太低!"
 
 #: ../../src/MathParser.cpp:526
 msgid "Bug: Missing contents"
-msgstr "Bug: Missing contents"
+msgstr "Bug: 内容缺失"
 
 #: ../../src/Worksheet.cpp:2550 ../../src/Worksheet.cpp:2664
 #: ../../src/Worksheet.cpp:2706 ../../src/Worksheet.cpp:2740
@@ -890,31 +891,31 @@ msgstr "Bug: Missing contents"
 #: ../../src/Worksheet.cpp:4395 ../../src/Worksheet.cpp:6603
 #: ../../src/Worksheet.cpp:6820
 msgid "Bug: The clipboard is already opened"
-msgstr "Bug: The clipboard is already opened"
+msgstr "Bug: 剪切板已打开"
 
 #: ../../src/Worksheet.cpp:7720
 msgid "Bug: Trying to move a title out by one sectioning unit"
-msgstr ""
+msgstr "Bug: 尝试将标题移出一个章节单位的位置"
 
 #: ../../src/Worksheet.cpp:6891
 msgid ""
 "Bug: Trying to move the horizontally-drawn cursor to a place inside a "
 "GroupCell."
 msgstr ""
-"Bug: Trying to move the horizontally-drawn cursor to a place inside a "
-"GroupCell."
+"Bug: 尝试将水平绘制的光标移动到一个组单元（GroupCell）内 "
+
 
 #: ../../src/Worksheet.h:247 ../../src/Worksheet.h:252
 msgid "Bug: Trying to record a cell contents change for undo without a cell."
-msgstr "Bug: Trying to record a cell contents change for undo without a cell."
+msgstr "Bug: 尝试记录单元内容变化以便于在没有该单元时可以撤销."
 
 #: ../../src/Worksheet.cpp:6370
 msgid "Bug: Undo action with both cell contents change and cell addition."
-msgstr "Bug: Undo action with both cell contents change and cell addition."
+msgstr "Bug: 撤销单元内容变更和增加单元操作."
 
 #: ../../src/Worksheet.cpp:6336
 msgid "Bug: Undo request for cell outside worksheet."
-msgstr "Bug: Undo request for cell outside worksheet."
+msgstr "Bug: 撤销对工作表以外的单元请求."
 
 #: ../../src/wxMaximaFrame.cpp:1969
 msgid "Build &Info"
@@ -922,12 +923,12 @@ msgstr "编译信息(&I)"
 
 #: ../../src/wxMaxima.cpp:7202
 msgid "Byte:"
-msgstr "比特"
+msgstr "字节"
 
 #: ../../src/wxMaximaFrame.cpp:1475
 #, fuzzy
 msgid "C&hange Variable in Integrate..."
-msgstr "修改变量(&H)..."
+msgstr "修改积分中的变量(&H)..."
 
 #: ../../src/wxMaximaFrame.cpp:712
 msgid "C&onfigure"
@@ -1180,7 +1181,7 @@ msgstr "修改变量"
 #: ../../src/wxMaxima.cpp:10092
 #, c-format
 msgid "Changing image originally loaded from file %s to %s."
-msgstr "将原本从文件 %s 加载的图像 变更为 %s"
+msgstr "将原本从文件 %s 加载的图片 变更为 %s"
 
 #: ../../src/wxMaxima.cpp:7240 ../../src/wxMaxima.cpp:7245
 #: ../../src/wxMaxima.cpp:7250 ../../src/wxMaxima.cpp:7256
@@ -1247,32 +1248,32 @@ msgstr "经典矩阵运算"
 #: ../../src/wxMaximaFrame.cpp:1014
 #, fuzzy
 msgid "Clear all aliases"
-msgstr "删除所有别名"
+msgstr "清除所有别名"
 
 #: ../../src/wxMaximaFrame.cpp:1011
 #, fuzzy
 msgid "Clear all arrays"
-msgstr "删除所有数组"
+msgstr "清除所有数组"
 
 #: ../../src/wxMaximaFrame.cpp:1008
 #, fuzzy
 msgid "Clear all dependencies"
-msgstr "删除所有依赖关系"
+msgstr "清除所有关系"
 
 #: ../../src/wxMaximaFrame.cpp:1010
 #, fuzzy
 msgid "Clear all functions"
-msgstr "删除所有函数"
+msgstr "清除所有函数"
 
 #: ../../src/wxMaximaFrame.cpp:1017
 #, fuzzy
 msgid "Clear all gradefs"
-msgstr "删除所有 gradefs"
+msgstr "清除所有 gradefs"
 
 #: ../../src/wxMaximaFrame.cpp:1016
 #, fuzzy
 msgid "Clear all labels"
-msgstr "删除所有标签"
+msgstr "清除所有标签"
 
 #: ../../src/wxMaximaFrame.cpp:1020
 #, fuzzy
@@ -1302,7 +1303,7 @@ msgstr "清除所有结构"
 #: ../../src/wxMaximaFrame.cpp:1009
 #, fuzzy
 msgid "Clear all variables"
-msgstr "清除变量"
+msgstr "清除所有变量"
 
 #: ../../src/wxMaximaFrame.cpp:626
 msgid "Close\tCtrl+W"
@@ -1380,7 +1381,7 @@ msgstr "列名称："
 #: ../../src/Configuration.cpp:101
 #, fuzzy
 msgid "Color of Outdated cells"
-msgstr "过期单元格的颜色"
+msgstr "非输入单元的颜色"
 
 #: ../../src/Configuration.cpp:100
 #, fuzzy
@@ -1395,7 +1396,7 @@ msgstr "列号"
 #: ../../src/wxMaxima.cpp:7897
 #, fuzzy
 msgid "Column numbers:"
-msgstr "列："
+msgstr "列数量："
 
 #: ../../src/wxMaximaFrame.cpp:1601
 msgid "Combine factorials in an expression"
@@ -1403,17 +1404,17 @@ msgstr "合并表达式中的阶乘"
 
 #: ../../src/wxMaxima.cpp:10365
 msgid "Comma directly followed by a closing parenthesis"
-msgstr "右括号后紧接逗号"
+msgstr "逗号后面直接跟右括号"
 
 #: ../../src/wxMaxima.cpp:7186
 #, fuzzy
 msgid "Comma-separated arguments"
-msgstr "以逗号分隔的元素"
+msgstr "以逗号分隔的实参数"
 
 #: ../../src/wxMaxima.cpp:6984 ../../src/wxMaxima.cpp:6993
 #, fuzzy
 msgid "Comma-separated commands"
-msgstr "以逗号分隔的元素"
+msgstr "以逗号分隔的命令"
 
 #: ../../src/wxMaxima.cpp:8378
 msgid "Comma-separated elements"
@@ -1422,47 +1423,47 @@ msgstr "以逗号分隔的元素"
 #: ../../src/wxMaxima.cpp:7679 ../../src/wxMaxima.cpp:7693
 #: ../../src/wxMaxima.cpp:9953
 msgid "Comma-separated equations"
-msgstr "以逗号分隔的式子"
+msgstr "以逗号分隔的方程"
 
 #: ../../src/wxMaxima.cpp:8647 ../../src/wxMaxima.cpp:8655
 #: ../../src/wxMaxima.cpp:8663 ../../src/wxMaxima.cpp:8671
 #: ../../src/wxMaxima.cpp:8680 ../../src/wxMaxima.cpp:8688
 #, fuzzy
 msgid "Comma-separated expressions"
-msgstr "以逗号分隔的式子"
+msgstr "以逗号分隔的表达式"
 
 #: ../../src/wxMaxima.cpp:7142
 #, fuzzy
 msgid "Comma-separated expressions that shall be converted to a string"
-msgstr "以逗号分隔的式子"
+msgstr "即将转换为字符句的（以逗号分隔的表达式）"
 
 #: ../../src/wxMaxima.cpp:7027 ../../src/wxMaxima.cpp:7041
 #, fuzzy
 msgid "Comma-separated expressions."
-msgstr "以逗号分隔的式子"
+msgstr "以逗号分隔的表达式"
 
 #: ../../src/wxMaxima.cpp:7000 ../../src/wxMaxima.cpp:7095
 #, fuzzy
 msgid "Comma-separated function names"
-msgstr "以逗号分隔的式子"
+msgstr "以逗号分隔的函数名称"
 
 #: ../../src/wxMaxima.cpp:7013
 #, fuzzy
 msgid "Comma-separated function names."
-msgstr "以逗号分隔的式子"
+msgstr "以逗号分隔的函数名称"
 
 #: ../../src/wxMaxima.cpp:8480 ../../src/wxMaxima.cpp:8487
 #: ../../src/wxMaxima.cpp:8493 ../../src/wxMaxima.cpp:8500
 msgid "Comma-separated list entry in the format val1=1,val2=2"
-msgstr ""
+msgstr "以逗号分隔的列表元素,格式为 val1=1,val2=2"
 
 #: ../../src/wxMaxima.cpp:7132
 msgid "Comma-separated names of the elements that shall be written"
-msgstr ""
+msgstr "将写入的以逗号分隔的元素名称"
 
 #: ../../src/wxMaxima.cpp:7026
 msgid "Comma-separated names the parameters will be referenced by later."
-msgstr ""
+msgstr "后续将引用的形参数名，以逗号分隔"
 
 #: ../../src/wxMaxima.cpp:7415 ../../src/wxMaxima.cpp:7420
 #, fuzzy
@@ -1471,18 +1472,19 @@ msgstr "要删除的行，用逗号分隔："
 
 #: ../../src/wxMaxima.cpp:8690
 msgid "Comma-separated numbers of the terms to substitute in"
-msgstr ""
+msgstr "以逗号分隔的量的数值，将被代入"
 
 #: ../../src/wxMaxima.cpp:7064 ../../src/wxMaxima.cpp:7077
 msgid ""
 "Comma-separated parameter names. A parameter in square brackets [] will be "
 "filled with the list of any additional arguments the function gets."
-msgstr ""
+msgstr "以逗号分隔的形参名称.方括号[]中的形参将被赋予"
+"函数得到的额外的实参列表"
 
 #: ../../src/wxMaxima.cpp:6981
 msgid ""
 "Comma-separated variable names, can be initialized by the \":\" operator."
-msgstr ""
+msgstr "以逗号分隔的变量名称，可以用\":\" 运算符初始化"
 
 #: ../../src/wxMaxima.cpp:7680 ../../src/wxMaxima.cpp:7694
 #: ../../src/wxMaxima.cpp:8639 ../../src/wxMaxima.cpp:8705
@@ -1492,7 +1494,7 @@ msgstr "以逗号分隔的变量"
 
 #: ../../src/wxMaxima.cpp:9389
 msgid "Command:"
-msgstr ""
+msgstr "命令:"
 
 #: ../../src/Worksheet.cpp:1664
 msgid "Comment Selection"
@@ -1508,47 +1510,47 @@ msgstr "注释掉所选内容\tCtrl+/"
 
 #: ../../src/Worksheet.cpp:1957
 msgid "Commutative function"
-msgstr ""
+msgstr "交换函数"
 
 #: ../../src/wxMaximaFrame.cpp:1413
 msgid "Compile a QR decomposition using dgeqrf"
-msgstr ""
+msgstr "用 dgeqrf 编译一个 QR 分解"
 
 #: ../../src/wxMaxima.cpp:7089
 #, fuzzy
 msgid "Compile a function"
-msgstr "删除函数"
+msgstr "编译函数"
 
 #: ../../src/wxMaximaFrame.cpp:1205
 #, fuzzy
 msgid "Compile a regex"
-msgstr "删除函数"
+msgstr "编译函数"
 
 #: ../../src/wxMaximaFrame.cpp:1402
 msgid "Compile eigenvalues using dgeev"
-msgstr ""
+msgstr "用 dgeev 求特征值"
 
 #: ../../src/wxMaximaFrame.cpp:1405
 msgid "Compile eigenvalues using zgeev"
-msgstr ""
+msgstr "用 zgeev 求特征值"
 
 #: ../../src/wxMaximaFrame.cpp:1408
 msgid "Compile eigenvalues+eigenvectors using dgeev"
-msgstr ""
+msgstr "用 dgeev 求特征值+特征向量"
 
 #: ../../src/wxMaximaFrame.cpp:1411
 msgid "Compile eigenvalues+eigenvectors using zgeev"
-msgstr ""
+msgstr "用 zgeev 求特征值+特征向量"
 
 #: ../../src/wxMaximaFrame.cpp:1093
 #, fuzzy
 msgid "Compile function..."
-msgstr "删除函数(&U)..."
+msgstr "编译函数(&U)..."
 
 #: ../../src/wxMaxima.cpp:7438
 #, fuzzy
 msgid "Compile regex"
-msgstr "自动补全"
+msgstr "求正则表达式"
 
 #: ../../src/wxMathml.cpp:53
 msgid "Compiler-Bug? wxMathml.lisp is shorter than expected!"
@@ -1565,6 +1567,8 @@ msgid ""
 "the function parameters are made known to the function before it is "
 "compiled. Else the generated code has to be hideously generic."
 msgstr ""
+"如果在编译前函数的参数类型已阐明，则编译能大大提速"
+"否则生成的代码必须极度稳定 "
 
 #: ../../src/wxMaximaFrame.cpp:921
 msgid "Complete Word\tCtrl+Space"
@@ -1792,7 +1796,7 @@ msgstr "复制前一次输出\tCtrl+U"
 #: ../../src/wxMaxima.cpp:7911
 #, fuzzy
 msgid "Copy a matrix"
-msgstr "复制为图片"
+msgstr "复制矩阵"
 
 #: ../../src/Worksheet.cpp:1369 ../../src/Worksheet.cpp:1496
 #: ../../src/wxMaximaFrame.cpp:688
@@ -1815,7 +1819,7 @@ msgstr "复制为 MathML"
 
 #: ../../src/Worksheet.cpp:1357 ../../src/Worksheet.cpp:1483
 msgid "Copy as MathML (e.g. to word processor)"
-msgstr "复制为 MathML（给文字处理软件）"
+msgstr "复制为 MathML（到文字处理软件）"
 
 #: ../../src/Worksheet.cpp:1372 ../../src/Worksheet.cpp:1499
 #: ../../src/wxMaximaFrame.cpp:683
@@ -1906,13 +1910,14 @@ msgstr "复制，剪切和粘贴按钮"
 
 #: ../../src/WXMXformat.cpp:297
 msgid "Could not create the backup file during saving => aborting."
-msgstr ""
+msgstr "在保存=>放弃过程中无法创建备份"
 
 #: ../../src/wxMaxima.cpp:3283 ../../src/wxMaxima.cpp:3295
 msgid ""
 "Could not make sure that we talk to the maxima we started => discarding all "
 "data it sends."
 msgstr ""
+"maxima无法确认我们告诉它已经开始-废弃它发送的所有数据"
 
 #: ../../src/wxMaxima.cpp:2807
 msgid ""
@@ -1926,7 +1931,7 @@ msgstr "无法发送中断信号到 Maxima。"
 
 #: ../../src/WXMXformat.cpp:289
 msgid "Could not write the file's contents during saving => aborting."
-msgstr ""
+msgstr "在保存=>放弃过程中无法写入文件的内容"
 
 #: ../../src/wxMaximaFrame.cpp:1342
 #, fuzzy
@@ -1943,7 +1948,7 @@ msgstr "创建列表以储存一些变量的数值"
 
 #: ../../src/wxMaxima.cpp:8383 ../../src/wxMaxima.cpp:8396
 msgid "Create a list from a rule"
-msgstr "从表达式创建列表"
+msgstr "从规则创建列表"
 
 #: ../../src/wxMaximaFrame.cpp:1687
 msgid "Create a list from comma-separated elements"
@@ -1951,7 +1956,7 @@ msgstr "从以逗号分隔的元素创建列表"
 
 #: ../../src/wxMaximaFrame.cpp:917
 msgid "Create a new cell with previous input"
-msgstr "使用前一次输入新建单元格"
+msgstr "使用前一次输入新建单元"
 
 #: ../../src/wxMaximaFrame.cpp:920
 msgid "Create a new cell with previous output"
@@ -1959,27 +1964,27 @@ msgstr "使用前一次输出新建单元"
 
 #: ../../src/wxMaximaFrame.cpp:1365
 msgid "Create copy, not clone..."
-msgstr ""
+msgstr "创建拷贝，而非克隆"
 
 #: ../../src/wxMaxima.cpp:7488
 #, fuzzy
 msgid "Create directory"
-msgstr "创建列表"
+msgstr "创建目录"
 
 #: ../../src/wxMaximaFrame.cpp:1220
 #, fuzzy
 msgid "Create directory..."
-msgstr "创建列表"
+msgstr "创建目录"
 
 #: ../../src/wxMaxima.cpp:7346
 #, fuzzy
 msgid "Create empty string"
-msgstr "创建矩阵"
+msgstr "创建空字符串"
 
 #: ../../src/wxMaximaFrame.cpp:1185
 #, fuzzy
 msgid "Create empty string..."
-msgstr "创建列表"
+msgstr "创建空字符串"
 
 #: ../../src/wxMaximaFrame.cpp:1704
 msgid "Create list"
@@ -1992,20 +1997,20 @@ msgstr "从以逗号分隔的元素创建列表"
 #: ../../src/wxMaximaFrame.cpp:1099
 #, fuzzy
 msgid "Create struct..."
-msgstr "创建列表"
+msgstr "创建结构"
 
 #: ../../src/WXMXformat.cpp:81
 msgid "Created a .zip archive (the .wxmx file technically is a .zip file)"
-msgstr ""
+msgstr "创建1个 .zip文件(.wxmx文件从技术上就是.zip)"
 
 #: ../../src/wxMaximaFrame.cpp:1366
 msgid "Creates an independent matrix with the same contents"
-msgstr ""
+msgstr "创建1个内容相同但独立的矩阵"
 
 #: ../../src/Configuration.cpp:98
 #, fuzzy
 msgid "Cursor color"
-msgstr "光标"
+msgstr "光标颜色"
 
 #: ../../src/ToolBar.cpp:180 ../../src/Worksheet.cpp:1655
 msgid "Cut"
@@ -2042,7 +2047,7 @@ msgstr "调试信息"
 
 #: ../../src/wxMaximaFrame.cpp:1074
 msgid "Debugger trigger"
-msgstr ""
+msgstr "调试开关"
 
 #: ../../src/wxMaximaFrame.cpp:806
 msgid "Declare Text to always be displayed as subscript"
@@ -2050,7 +2055,7 @@ msgstr "声明总显示为下标的文本"
 
 #: ../../src/wxMaxima.cpp:6996
 msgid "Declare a function local to a Program"
-msgstr ""
+msgstr "声明函数为程序的局部函数"
 
 #: ../../src/wxMaxima.cpp:6470
 msgid "Declare a text snippet to always be displayed as subscript"
@@ -2059,73 +2064,73 @@ msgstr "声明一个文本片段，使其总显示为下标"
 #: ../../src/Worksheet.cpp:1997
 #, c-format
 msgid "Declare facts about %s"
-msgstr ""
+msgstr "声明关于 %s 的事实"
 
 #: ../../src/wxMaxima.cpp:8720
 #, fuzzy
 msgid "Declare main variable:"
-msgstr "删除变量"
+msgstr "声明主变量"
 
 #: ../../src/wxMaxima.cpp:7098
 msgid "Declare the type of a function parameter"
-msgstr ""
+msgstr "声明函数型参数的类型"
 
 #: ../../src/Worksheet.cpp:1991
 msgid "Declare these chars as ordinary letters"
-msgstr ""
+msgstr "声明这些字符为普通字母"
 
 #: ../../src/wxMaximaFrame.cpp:1517 ../../src/wxMaximaFrame.cpp:1553
 msgid "Decompose rational function to partial fractions"
-msgstr "分解有理函数为部分分式"
+msgstr "分解有理函数为偏分数"
 
 #: ../../src/Worksheet.cpp:1963
 #, fuzzy
 msgid "Decreasing function f(x)<x"
-msgstr "删除函数："
+msgstr "减小函数：f(x)<x"
 
 #: ../../src/wxMaxima.cpp:7061
 #, fuzzy
 msgid "Define a function"
-msgstr "删除函数"
+msgstr "定义函数"
 
 #: ../../src/wxMaxima.cpp:7074
 msgid "Define a macro"
-msgstr ""
+msgstr "定义macro宏"
 
 #: ../../src/wxMaxima.cpp:7116
 msgid "Define a structure"
-msgstr ""
+msgstr "定义结构"
 
 #: ../../src/wxMaxima.cpp:7110
 msgid "Define a structure type"
-msgstr ""
+msgstr "定义结构类型"
 
 #: ../../src/wxMaxima.cpp:7083
 #, fuzzy
 msgid "Define a variable"
-msgstr "删除变量"
+msgstr "定义变量"
 
 #: ../../src/wxMaximaFrame.cpp:1089
 #, fuzzy
 msgid "Define function..."
-msgstr "删除函数(&U)..."
+msgstr "定义函数(&U)..."
 
 #: ../../src/wxMaximaFrame.cpp:1096
 msgid "Define macro..."
-msgstr ""
+msgstr "定义macro宏"
 
 #: ../../src/wxMaximaFrame.cpp:1094
 msgid "Define parameter type..."
-msgstr ""
+msgstr "定义形参类型"
 
 #: ../../src/wxMaximaFrame.cpp:1098
 msgid "Define struct..."
-msgstr ""
+msgstr "定义结构"
 
 #: ../../src/wxMaximaFrame.cpp:1097
 #, fuzzy
 msgid "Define variable..."
-msgstr "删除变量"
+msgstr "定义变量"
 
 #: ../../src/wxMaximaFrame.cpp:1793
 msgid ""
@@ -2134,7 +2139,7 @@ msgstr "定义动图是自动播放，还是只在点击后播放。"
 
 #: ../../src/wxMaxima.cpp:8855
 msgid "Degree:"
-msgstr ""
+msgstr "度"
 
 #: ../../src/wxMaximaFrame.cpp:1001
 msgid "Delete F&unction..."
@@ -2158,7 +2163,7 @@ msgstr "删除变量"
 
 #: ../../src/wxMaximaFrame.cpp:998
 msgid "Delete all objects with a given name"
-msgstr ""
+msgstr "删除指定名称的所有量"
 
 #: ../../src/wxMaximaFrame.cpp:1007
 msgid "Delete all values from memory"
@@ -2167,12 +2172,12 @@ msgstr "删除内存中所有值"
 #: ../../src/wxMaxima.cpp:7515
 #, fuzzy
 msgid "Delete file"
-msgstr "删除变量"
+msgstr "删除文件"
 
 #: ../../src/wxMaximaFrame.cpp:1233
 #, fuzzy
 msgid "Delete file..."
-msgstr "删除变量(&A)..."
+msgstr "删除文件(&A)..."
 
 #: ../../src/wxMaxima.cpp:7610
 #, fuzzy
@@ -2182,17 +2187,17 @@ msgstr "删除函数："
 #: ../../src/wxMaxima.cpp:7606
 #, fuzzy
 msgid "Delete named object(s)"
-msgstr "删除函数："
+msgstr "删除命名的量："
 
 #: ../../src/wxMaximaFrame.cpp:997
 #, fuzzy
 msgid "Delete named object..."
-msgstr "删除函数(&U)..."
+msgstr "删除命名的量(&U)..."
 
 #: ../../src/wxMaxima.cpp:7601
 #, fuzzy
 msgid "Delete variable(s)"
-msgstr "删除变量："
+msgstr "删除变量（组）："
 
 #: ../../src/wxMaxima.cpp:7357
 #, fuzzy
@@ -2202,11 +2207,11 @@ msgstr "消元"
 #: ../../src/Worksheet.cpp:1341 ../../src/Worksheet.cpp:1742
 #, fuzzy, c-format
 msgid "Demo for \"%s\""
-msgstr "关于“%s”的帮助"
+msgstr "关于“%s”的示例"
 
 #: ../../src/wxMaximaFrame.cpp:1951
 msgid "Demos"
-msgstr ""
+msgstr "示例"
 
 #: ../../src/wxMaxima.cpp:8847
 msgid "Denom. deg:"
@@ -2214,15 +2219,15 @@ msgstr "分母次数："
 
 #: ../../src/wxMaxima.cpp:7842
 msgid "Denominator:"
-msgstr ""
+msgstr "分母"
 
 #: ../../src/wxMaximaFrame.cpp:1047
 msgid "Dependencies"
-msgstr ""
+msgstr "函数依赖"
 
 #: ../../src/wxMaxima.cpp:7732
 msgid "Derivate of y at that point:"
-msgstr ""
+msgstr "y在给定点的导数"
 
 #: ../../src/wxMaximaFrame.cpp:1514
 msgid "Di&vide Polynomials..."
@@ -2230,13 +2235,14 @@ msgstr "多项式相除(&V)..."
 
 #: ../../src/MaximaManual.cpp:520
 msgid "Didn't find the maxima HTML manual."
-msgstr ""
+msgstr "未找到maxima的HTML格式的手册"
 
 #: ../../src/wxMaxima.cpp:4828
 msgid ""
 "Didn't get a help browser launch program command line, but can request the "
 "system's default help browser."
 msgstr ""
+"未找到帮助浏览器启动程序的命令行，但可以请求系统的默认帮助浏览器"
 
 #: ../../src/wxMaxima.cpp:8930 ../../src/wxMaxima.cpp:9977
 msgid "Differentiate"
@@ -2253,17 +2259,17 @@ msgstr "求导..."
 #: ../../src/wxMaxima.cpp:8930
 #, fuzzy
 msgid "Differentiates an expression n times"
-msgstr "对表达式求导"
+msgstr "对表达式求n次导"
 
 #: ../../src/wxMaxima.cpp:9977
 #, fuzzy
 msgid "Differentiates the expression n times"
-msgstr "对表达式求导"
+msgstr "对表达式求n次导"
 
 #: ../../src/wxMaximaFrame.cpp:1229
 #, fuzzy
 msgid "Directory operations"
-msgstr "方向："
+msgstr "目录操作"
 
 #: ../../src/wxMaximaFrame.cpp:1058
 msgid "Display Te&X Form"
@@ -2275,11 +2281,11 @@ msgstr "显示算法"
 
 #: ../../src/wxMaximaFrame.cpp:778
 msgid "Display an expression as maxima's internal lisp representation"
-msgstr ""
+msgstr "以maxima内置lisp表达式显示表达式"
 
 #: ../../src/wxMaximaFrame.cpp:781
 msgid "Display an expression as wxMaxima's internal XML representation"
-msgstr ""
+msgstr "以wxMaxima内置XML表达式显示表达式"
 
 #: ../../src/wxMaximaFrame.cpp:785
 msgid "Display equations"
@@ -2287,11 +2293,11 @@ msgstr "显示方程"
 
 #: ../../src/wxMaxima.cpp:6439
 msgid "Display expression in maxima's internal representation"
-msgstr ""
+msgstr "以Maxima内置表达式语法显示表达式"
 
 #: ../../src/wxMaxima.cpp:6445
 msgid "Display expression in wxMaxima's internal representation"
-msgstr ""
+msgstr "以wxMaxima内置表达式语法显示表达式"
 
 #: ../../src/wxMaximaFrame.cpp:1059
 msgid "Display last result in TeX form"
@@ -2325,31 +2331,31 @@ msgstr "计算剩下的"
 
 #: ../../src/wxMaximaFrame.cpp:1462
 msgid "Dito, but affect all clones of the Matrix..."
-msgstr ""
+msgstr "影响矩阵的所有克隆"
 
 #: ../../src/wxMaximaFrame.cpp:1272
 msgid "Dito, but as fraction (real only)..."
-msgstr ""
+msgstr "以分数（仅实数）形式"
 
 #: ../../src/wxMaximaFrame.cpp:1549
 msgid "Dito, including denominator"
-msgstr ""
+msgstr "包含分母"
 
 #: ../../src/Worksheet.cpp:1677
 msgid "Divide Cell"
-msgstr "分割单元格"
+msgstr "分割单元"
 
 #: ../../src/wxMaximaFrame.cpp:964
 msgid "Divide Cell\tCtrl+D"
-msgstr "分割单元格\tCtrl+D"
+msgstr "分割单元\tCtrl+D"
 
 #: ../../src/wxMaximaFrame.cpp:1515
 msgid "Divide numbers or polynomials"
-msgstr "将数字或多项式相除"
+msgstr "对数字或多项式做除法"
 
 #: ../../src/wxMaximaFrame.cpp:965
 msgid "Divide this input cell into two cells"
-msgstr "将此输入单元格分为两个单元格"
+msgstr "将此输入单元分为两个单元"
 
 #: ../../src/wxMaxima.cpp:8498
 msgid "Do for each list element"
@@ -2372,7 +2378,7 @@ msgstr "文档背景"
 msgid ""
 "Document was saved using a newer version of wxMaxima so it may not load "
 "correctly. Please update your wxMaxima."
-msgstr "文档是用新版本 wxMaxima 保存的，可能没有正确地载入。请更新 wxMaxima。"
+msgstr "文档是用新版本 wxMaxima 保存的，可能没有正确载入。请更新 wxMaxima。"
 
 #: ../../src/wxMaxima.cpp:4523
 msgid ""
@@ -2387,21 +2393,21 @@ msgstr "不将下划线后的文本自动显示为下标"
 #: ../../src/wxMaximaFrame.cpp:1103
 #, fuzzy
 msgid "Don't evaluate Expression..."
-msgstr "对表达式求积分"
+msgstr "请勿对表达式求值"
 
 #: ../../src/wxMaxima.cpp:7044
 #, fuzzy
 msgid "Don't evaluate one command"
-msgstr "显示此命令的示例："
+msgstr "请勿对命令求值"
 
 #: ../../src/wxMaxima.cpp:7056
 #, fuzzy
 msgid "Don't evaluate one whole expression"
-msgstr "求复数表达式的实部"
+msgstr "请勿对整个表达式求值"
 
 #: ../../src/Worksheet.cpp:1884 ../../src/Worksheet.cpp:2017
 msgid "Don't mark cells that contain tooltips in yellow"
-msgstr "不将含提示的单元格标记为黄色"
+msgstr "不将含提示的单元标记为黄色"
 
 #: ../../src/Worksheet.cpp:1891 ../../src/Worksheet.cpp:2023
 msgid "Don't mark this message text in yellow"
@@ -2417,7 +2423,7 @@ msgstr "不显示标签"
 
 #: ../../src/Worksheet.cpp:1932
 msgid "Don't use if unassigned"
-msgstr ""
+msgstr "未签名不使用"
 
 #: ../../src/wxMaximaFrame.cpp:824
 msgid "Don't use parenthesis for matrices"
@@ -2426,12 +2432,12 @@ msgstr "不显示矩阵的括号"
 #: ../../src/wxMaxima.cpp:8445
 #, fuzzy
 msgid "Drop the first n list elements"
-msgstr "对每个列表元素进行操作"
+msgstr "去掉前n个列表元素"
 
 #: ../../src/wxMaxima.cpp:8451 ../../src/wxMaxima.cpp:8457
 #, fuzzy
 msgid "Drop the last n list elements"
-msgstr "去掉后 n 个元素"
+msgstr "去掉列表后 n 个元素"
 
 #: ../../src/wxMaximaFrame.cpp:1323
 msgid "E&quations"
@@ -2452,20 +2458,20 @@ msgstr "特征值(&V)"
 #: ../../src/wxMaximaFrame.cpp:1404
 #, fuzzy
 msgid "Eigenvalues (complex)"
-msgstr "特征值(&V)"
+msgstr "特征值(&V)（复数）"
 
 #: ../../src/wxMaximaFrame.cpp:1401
 #, fuzzy
 msgid "Eigenvalues (real)"
-msgstr "特征值(&V)"
+msgstr "特征值(&V)（实数）"
 
 #: ../../src/wxMaximaFrame.cpp:1410
 msgid "Eigenvalues, left+right eigenvectors (complex)"
-msgstr ""
+msgstr "特征值,左+右特征向量（复数）"
 
 #: ../../src/wxMaximaFrame.cpp:1407
 msgid "Eigenvalues, left+right eigenvectors (real)"
-msgstr ""
+msgstr "特征值,左+右特征向量（实数）"
 
 #: ../../src/wxMaxima.cpp:8504
 msgid ""
@@ -2493,7 +2499,7 @@ msgstr "相同大小的矩阵逐个对应元素相乘（Hadamard 积）"
 #: ../../src/wxMaxima.cpp:7931
 #, fuzzy
 msgid "Element-by-element exponentiation of two matrices"
-msgstr "逐个对应元素相乘"
+msgstr "两个矩阵间逐个对应元素取幂"
 
 #: ../../src/wxMaximaFrame.cpp:1359
 msgid "Element-by-element multiplication"
@@ -2519,7 +2525,7 @@ msgstr "消去方程组中一个变量"
 
 #: ../../src/wxMaxima.cpp:10562
 msgid "Empty command => re-triggering evaluation"
-msgstr ""
+msgstr "空命令=>重新开启求值"
 
 #: ../../src/wxMaxima.cpp:9145
 msgid "Enable:"
@@ -2583,11 +2589,11 @@ msgstr "Epsilon（误差）："
 
 #: ../../src/wxMaximaFrame.cpp:1141 ../../src/wxMaximaFrame.cpp:1152
 msgid "Equal, ignoring case?..."
-msgstr ""
+msgstr "忽略大小写后，相等？"
 
 #: ../../src/wxMaximaFrame.cpp:1150
 msgid "Equal?..."
-msgstr ""
+msgstr "相等？"
 
 #: ../../src/wxMaxima.cpp:8481
 msgid "Equation"
@@ -2658,6 +2664,7 @@ msgid ""
 "Escapes all special characters in a string. The result is a regex that "
 "matches this string exactly."
 msgstr ""
+"跳过字符串中所有特殊字符,结果为完全匹配该字符串的正则式"
 
 #: ../../src/wxMaximaFrame.cpp:1669
 #, fuzzy
@@ -2774,12 +2781,12 @@ msgstr "计算到此处"
 
 #: ../../src/wxMaxima.cpp:10429
 msgid "Evaluation ended, since evaluation queue is empty."
-msgstr ""
+msgstr "计算序列为空,计算结束"
 
 #: ../../src/Worksheet.cpp:1910
 #, fuzzy
 msgid "Even number"
-msgstr "项数 n"
+msgstr "偶数"
 
 #: ../../src/wxMaximaFrame.cpp:1720
 msgid "Execute a command for each element of the list"
@@ -2804,21 +2811,21 @@ msgstr "展开一个表达式"
 #: ../../src/wxMaximaFrame.cpp:1548
 #, fuzzy
 msgid "Expand for given variables"
-msgstr "修改变量"
+msgstr "关于指定变量展开"
 
 #: ../../src/wxMaxima.cpp:8701
 msgid "Expand for variable(s) including denominator:"
-msgstr ""
+msgstr "关于包含分母的变量（组）展开"
 
 #: ../../src/wxMaxima.cpp:8636
 #, fuzzy
 msgid "Expand for variable(s):"
-msgstr "指标变量："
+msgstr "关于变量（组）展开："
 
 #: ../../src/wxMaximaFrame.cpp:1562
 #, fuzzy
 msgid "Expand log in previous expression"
-msgstr "展开一个表达式"
+msgstr "展开上一个表达式中的log"
 
 #: ../../src/wxMaximaFrame.cpp:1615
 msgid "Expand trigonometric expression"
@@ -2826,7 +2833,7 @@ msgstr "展开三角表达式"
 
 #: ../../src/wxMaximaFrame.cpp:1805
 msgid "Expect numbers harder to be complex"
-msgstr "将数值理解为复数"
+msgstr "期待一个数，极不可能是复数"
 
 #: ../../src/wxMaximaFrame.cpp:1806
 msgid "Expect variables to contain complex numbers"
@@ -2896,11 +2903,11 @@ msgstr "正在导出"
 
 #: ../../src/wxMaxima.cpp:7040
 msgid "Expression whose output is to be used as maxima's input."
-msgstr ""
+msgstr "表达式的输出将用作maxima的输入"
 
 #: ../../src/wxMaxima.cpp:7141
 msgid "Expression(s):"
-msgstr "表达式："
+msgstr "表达式（组）："
 
 #: ../../src/wxMaxima.cpp:8853 ../../src/wxMaxima.cpp:8861
 #: ../../src/wxMaxima.cpp:8872 ../../src/wxMaxima.cpp:8896
@@ -2936,17 +2943,17 @@ msgstr "提取矩阵的一列并转化为列表"
 #: ../../src/wxMaxima.cpp:7879
 #, fuzzy
 msgid "Extract a matrix column"
-msgstr "提取矩阵的一行"
+msgstr "提取矩阵的一列"
 
 #: ../../src/wxMaxima.cpp:7889
 #, fuzzy
 msgid "Extract a matrix column as a list"
-msgstr "提取矩阵的一行"
+msgstr "提取矩阵的一列"
 
 #: ../../src/wxMaximaFrame.cpp:1330
 #, fuzzy
 msgid "Extract a matrix from a 2-dimensional array"
-msgstr "从二维数组创建一个矩阵"
+msgstr "从二维数组提取创建一个矩阵"
 
 #: ../../src/wxMaxima.cpp:7874
 msgid "Extract a matrix row"
@@ -2955,7 +2962,7 @@ msgstr "提取矩阵的一行"
 #: ../../src/wxMaxima.cpp:7884
 #, fuzzy
 msgid "Extract a matrix row as a list"
-msgstr "提取矩阵的一行"
+msgstr "提取矩阵的一行作为一个列表"
 
 #: ../../src/wxMaximaFrame.cpp:1439
 msgid "Extract a row from the matrix"
@@ -2967,7 +2974,7 @@ msgstr "提取矩阵的一行并转化为列表"
 
 #: ../../src/wxMaxima.cpp:8484
 msgid "Extract a variable's value from a list of variable values"
-msgstr "提取变量值列表中的一个值"
+msgstr "提取变量值列表中的一个变量值"
 
 #: ../../src/wxMaximaFrame.cpp:1740
 msgid "Extract an actual value for a variable"
@@ -2976,35 +2983,35 @@ msgstr "提取变量的实际值"
 #: ../../src/wxMaximaFrame.cpp:1180
 #, fuzzy
 msgid "Extract char..."
-msgstr "提取行"
+msgstr "提取字符..."
 
 #: ../../src/wxMaximaFrame.cpp:1224
 #, fuzzy
 msgid "Extract dir from path..."
-msgstr "提取矩阵的一行"
+msgstr "从路径...中提取目录"
 
 #: ../../src/wxMaxima.cpp:7532
 #, fuzzy
 msgid "Extract directory part"
-msgstr "提取函数的参数"
+msgstr "提取目录的一部分"
 
 #: ../../src/wxMaxima.cpp:7544
 #, fuzzy
 msgid "Extract file type extension"
-msgstr "提取列表的元素"
+msgstr "提取文件类型扩展名"
 
 #: ../../src/wxMaximaFrame.cpp:1226
 msgid "Extract filename from path..."
-msgstr ""
+msgstr "从路径...中提取文件名"
 
 #: ../../src/wxMaxima.cpp:7538
 #, fuzzy
 msgid "Extract filename part"
-msgstr "提取元素"
+msgstr "提取部分文件名"
 
 #: ../../src/wxMaximaFrame.cpp:1228
 msgid "Extract filetype from path..."
-msgstr ""
+msgstr "从路径...提取文件类型"
 
 #: ../../src/wxMaxima.cpp:8365
 msgid "Extract function arguments"
@@ -3017,7 +3024,7 @@ msgstr "提取列表的元素"
 #: ../../src/wxMaxima.cpp:8106
 #, fuzzy
 msgid "Extract matrix from 2D array"
-msgstr "提取矩阵的一行"
+msgstr "从二维数组中提取矩阵"
 
 #: ../../src/wxMaximaFrame.cpp:1703
 msgid "Extract the argument list from a function call"
@@ -3030,25 +3037,25 @@ msgstr "提取列表中的后 n 个元素"
 #: ../../src/wxMaxima.cpp:7303
 #, fuzzy
 msgid "Extract the nth char of a string"
-msgstr "提取列表的元素"
+msgstr "提取字符串中的第n个字符"
 
 #: ../../src/wxMaxima.cpp:8464
 #, fuzzy
 msgid "Extract the nth list elements"
-msgstr "提取列表的元素"
+msgstr "提取列表的第n个元素"
 
 #: ../../src/wxMaximaFrame.cpp:1741
 msgid "Extract the value for one variable assigned in a list"
-msgstr "提取列表中一个变量的值"
+msgstr "提取列表中一个值给变量"
 
 #: ../../src/wxMaximaFrame.cpp:1456
 msgid "Extract, append or delete rows or columns"
-msgstr ""
+msgstr "提取,扩充或删除行或列"
 
 #: ../../src/wxMaxima.cpp:8107
 #, fuzzy
 msgid "Extracts a rectangle from a 2D array and converts it to a matrix"
-msgstr "提取矩阵的一行并转化为列表"
+msgstr "提取二维数组的一个矩形区域并转化为矩阵"
 
 #: ../../src/wxMaximaFrame.cpp:1538
 msgid "Factor Complex"
@@ -3078,16 +3085,16 @@ msgstr "阶乘和 Gamma 函数(&G)"
 #: ../../src/Image.cpp:139
 #, fuzzy, c-format
 msgid "Failed to delete gnuplot data file %s"
-msgstr "尝试删除 gnuplot 文件 %s"
+msgstr "删除 gnuplot 数据文件 %s 失败"
 
 #: ../../src/Image.cpp:123 ../../src/Image.cpp:130
 #, fuzzy, c-format
 msgid "Failed to delete gnuplot file %s"
-msgstr "尝试删除 gnuplot 文件 %s"
+msgstr "删除 gnuplot 文件 %s 失败"
 
 #: ../../src/wxMaximaFrame.cpp:1435
 msgid "Fast fortran routines that perform numerical tasks"
-msgstr ""
+msgstr "执行数值计算的快速Fotran子程序"
 
 #: ../../src/wxMaximaFrame.cpp:1943
 msgid "Fast list access"
@@ -3105,11 +3112,11 @@ msgstr "隐藏内容"
 #: ../../src/wxMaxima.cpp:7125
 #, fuzzy
 msgid "Field name:"
-msgstr "变量名"
+msgstr "域名"
 
 #: ../../src/wxMaxima.cpp:7112
 msgid "Fields:"
-msgstr ""
+msgstr "域"
 
 #: ../../src/main.cpp:421
 msgid "File"
@@ -3118,24 +3125,24 @@ msgstr "文件"
 #: ../../src/wxMaximaFrame.cpp:1350
 #, fuzzy
 msgid "File I/O"
-msgstr "文件"
+msgstr "文件 写入/写出"
 
 #: ../../src/wxMaxima.cpp:4085 ../../src/wxMaxima.cpp:4144
 #: ../../src/wxMaxima.cpp:4413 ../../src/wxMaxima.cpp:4424
 #: ../../src/wxMaxima.cpp:4526 ../../src/wxMaxima.cpp:4556
 #: ../../src/wxMaxima.cpp:4567 ../../src/wxMaxima.cpp:5566
 msgid "File could not be opened"
-msgstr "文件无法打开"
+msgstr "无法打开文件"
 
 #: ../../src/wxMaxima.cpp:7168 ../../src/wxMaxima.cpp:7173
 #: ../../src/wxMaxima.cpp:7178
 #, fuzzy
 msgid "File name:"
-msgstr "变量名"
+msgstr "文件名"
 
 #: ../../src/wxMaxima.cpp:10147 ../../src/wxMaxima.cpp:10190
 msgid "File not found"
-msgstr "文件无法找到"
+msgstr "无法找到文件"
 
 #: ../../src/wxMaxima.cpp:5556
 msgid "File opened"
@@ -3144,7 +3151,7 @@ msgstr "文件已打开"
 #: ../../src/wxMaximaFrame.cpp:1234
 #, fuzzy
 msgid "File operations"
-msgstr "文件已打开"
+msgstr "文件操作"
 
 #: ../../src/wxMaxima.cpp:10146 ../../src/wxMaxima.cpp:10189
 msgid "File you tried to open does not exist."
@@ -3153,7 +3160,7 @@ msgstr "要打开的文件不存在。"
 #: ../../src/wxMaxima.cpp:6954
 #, fuzzy
 msgid "Filename or a list of comma-separated file names"
-msgstr "从以逗号分隔的元素创建列表"
+msgstr "文件名或以逗号分隔的文件名列表"
 
 #: ../../src/ToolBar.cpp:194
 msgid "Find"
@@ -3181,7 +3188,7 @@ msgstr "求表达式的（无约束）最小值"
 
 #: ../../src/wxMaximaFrame.cpp:1821
 msgid "Find a fraction that represents this float exactly"
-msgstr ""
+msgstr "找到对应该浮点数的准确分数"
 
 #: ../../src/wxMaximaFrame.cpp:1486
 msgid "Find a limit of an expression"
@@ -3189,12 +3196,12 @@ msgstr "求表达式的极限"
 
 #: ../../src/wxMaximaFrame.cpp:1824
 msgid "Find a nice fraction that is similar to this float"
-msgstr ""
+msgstr "找到该浮点数的近似分数"
 
 #: ../../src/wxMaximaFrame.cpp:1300
 #, fuzzy
 msgid "Find a numerical solution for a first degree ODE"
-msgstr "求解一阶常微分方程的初值问题"
+msgstr "数值求解一阶常微分方程"
 
 #: ../../src/wxMaximaFrame.cpp:1269
 msgid "Find a root of an equation on an interval"
@@ -3218,15 +3225,15 @@ msgstr "查找并替换"
 
 #: ../../src/wxMaxima.cpp:7361
 msgid "Find char in string"
-msgstr ""
+msgstr "在字符串中查找字符"
 
 #: ../../src/wxMaximaFrame.cpp:1189
 msgid "Find char in string..."
-msgstr ""
+msgstr "在字符串...中查找字符"
 
 #: ../../src/wxMaximaFrame.cpp:1551
 msgid "Find common denominator"
-msgstr ""
+msgstr "找公约数"
 
 #: ../../src/wxMaximaFrame.cpp:1383
 msgid "Find eigenvalues of a matrix"
@@ -3238,11 +3245,11 @@ msgstr "求矩阵的特征向量"
 
 #: ../../src/wxMaxima.cpp:7351
 msgid "Find first difference"
-msgstr ""
+msgstr "找一阶微分"
 
 #: ../../src/wxMaximaFrame.cpp:1187
 msgid "Find first difference..."
-msgstr ""
+msgstr "找一阶微分.."
 
 #: ../../src/wxMaximaFrame.cpp:1273
 #, fuzzy
@@ -3255,11 +3262,11 @@ msgstr "求最小值"
 
 #: ../../src/wxMaximaFrame.cpp:1268
 msgid "Find numerical solution..."
-msgstr ""
+msgstr "求数值解"
 
 #: ../../src/wxMaxima.cpp:9957
 msgid "Find root (solve numerically)"
-msgstr ""
+msgstr "求数值根"
 
 #: ../../src/wxMaxima.cpp:7981 ../../src/wxMaxima.cpp:8002
 #, fuzzy
@@ -3268,15 +3275,15 @@ msgstr "求矩阵的特征值"
 
 #: ../../src/wxMaxima.cpp:7987 ../../src/wxMaxima.cpp:8008
 msgid "Find the maximum sum of the absolute values of a matrix column"
-msgstr ""
+msgstr "求矩阵的列元素绝对值之和的最大值"
 
 #: ../../src/wxMaxima.cpp:7992 ../../src/wxMaxima.cpp:8013
 msgid "Find the maximum sum of the absolute values of a matrix row"
-msgstr ""
+msgstr "求矩阵的行元素绝对值之和的最大值"
 
 #: ../../src/wxMaximaFrame.cpp:1849
 msgid "Fine-tune the display of engineering-format numbers"
-msgstr "微调工程样式数字的显示方式"
+msgstr "微调工程-格式小数位数"
 
 #: ../../src/wxMaximaFrame.cpp:1729
 msgid "First"
@@ -3288,11 +3295,11 @@ msgstr "拟合曲线到测量的数据"
 
 #: ../../src/wxMaxima.cpp:7154
 msgid "Flush stream"
-msgstr ""
+msgstr "溢出流"
 
 #: ../../src/wxMaximaFrame.cpp:1120
 msgid "Flush..."
-msgstr ""
+msgstr "溢出..."
 
 #: ../../src/wxMaximaFrame.cpp:951
 msgid "Fold All\tCtrl+Alt+["
@@ -3332,24 +3339,24 @@ msgstr ""
 
 #: ../../src/wxMaxima.cpp:6965
 msgid "For loop"
-msgstr ""
+msgstr "对循环"
 
 #: ../../src/wxMaximaFrame.cpp:1079
 msgid "For loop..."
-msgstr ""
+msgstr "对循环..."
 
 #: ../../src/Worksheet.cpp:233 ../../src/wxMaxima.cpp:11128
 msgid "Forwarding the keyboard focus to a text control"
-msgstr ""
+msgstr "将键盘输入切换到文本控制"
 
 #: ../../src/wxMaxima.cpp:11131
 msgid "Forwarding the keyboard focus to the worksheet"
-msgstr ""
+msgstr "将键盘输入切换到工作表"
 
 #: ../../src/MaximaManual.cpp:455
 #, c-format
 msgid "Found %li anchors, URLs (individual files): %li, URLs (singlepage): %li"
-msgstr ""
+msgstr "找到 %li 个锚, URLs (每个文件): %li, URLs (单页): %li"
 
 #: ../../src/MaximaManual.cpp:316
 #, c-format
@@ -3363,11 +3370,11 @@ msgstr "Maxima 的用户手册（HTML 文件）位于目录 %s"
 
 #: ../../src/wxMaxima.cpp:8868
 msgid "Fourier coefficients"
-msgstr ""
+msgstr "傅里叶系数"
 
 #: ../../src/wxMaximaFrame.cpp:1493
 msgid "Fourier coefficients..."
-msgstr ""
+msgstr "傅里叶系数..."
 
 #: ../../src/ToolBar.cpp:109
 #, fuzzy, c-format
@@ -3380,15 +3387,15 @@ msgstr "帧率"
 
 #: ../../src/wxMaximaFrame.cpp:1021 ../../src/wxMaximaFrame.cpp:1025
 msgid "Free all unused items now"
-msgstr ""
+msgstr "立刻释放所有未使用项目"
 
 #: ../../src/wxMaximaFrame.cpp:1430
 msgid "Frobenius Norm sqrt(sum((A(i,j))^2)) (complex)"
-msgstr ""
+msgstr "Frobenius Norm sqrt(sum((A(i,j))^2)) (复数)"
 
 #: ../../src/wxMaximaFrame.cpp:1428
 msgid "Frobenius Norm sqrt(sum((A(i,j))^2)) (real)"
-msgstr ""
+msgstr "Frobenius Norm sqrt(sum((A(i,j))^2)) (实数)"
 
 #: ../../src/wxMaxima.cpp:8984
 msgid "From:"
@@ -3405,12 +3412,12 @@ msgstr "全屏\tF11"
 #: ../../src/wxMaxima.cpp:7067
 #, fuzzy
 msgid "Function contents:"
-msgstr "函数名"
+msgstr "函数内容"
 
 #: ../../src/wxMaxima.cpp:7827
 #, fuzzy
 msgid "Function f(x):"
-msgstr "函数："
+msgstr "函数 f(x)："
 
 #: ../../src/wxMaxima.cpp:8492
 msgid "Function name"
@@ -3419,7 +3426,7 @@ msgstr "函数名"
 #: ../../src/wxMaxima.cpp:7094
 #, fuzzy
 msgid "Function name(s):"
-msgstr "函数名"
+msgstr "函数名（组）"
 
 #: ../../src/wxMaxima.cpp:7062 ../../src/wxMaxima.cpp:7611
 #, fuzzy
@@ -3492,22 +3499,23 @@ msgstr "从一个规则创建列表元素"
 #: ../../src/wxMaxima.cpp:8115
 #, fuzzy
 msgid "Generate matrix from a rule"
-msgstr "从表达式创建列表"
+msgstr "从规则创建列表"
 
 #: ../../src/wxMaximaFrame.cpp:1111
 msgid "Generate unused symbol name"
-msgstr ""
+msgstr "生成未使用的符号名"
 
 #: ../../src/WXMXformat.cpp:232
 #, fuzzy
 msgid "Generated the XML representation of the document"
-msgstr "开始计算整个文档"
+msgstr "生成文档的 XML 表示"
 
 #: ../../src/wxMaxima.cpp:8116
 msgid ""
 "Generates a rectangular matrix and fills each element with the result of the "
 "expression \"Rule\"."
 msgstr ""
+"生成对角矩阵并以表达式 \"Rule\" 的规则填充每个元素."
 
 #: ../../src/wxMaximaFrame.cpp:1636
 msgid "Get &Imaginary Part"
@@ -3523,7 +3531,7 @@ msgstr "求实部(&A)"
 
 #: ../../src/wxMaximaFrame.cpp:1218
 msgid "Get current directory"
-msgstr ""
+msgstr "获取当前目录"
 
 #: ../../src/wxMaximaFrame.cpp:1506
 msgid "Get inverse Laplace transformation of an expression"
@@ -3531,12 +3539,12 @@ msgstr "求表达式的 Laplace 逆变换"
 
 #: ../../src/wxMaxima.cpp:7150
 msgid "Get position in stream"
-msgstr ""
+msgstr "获取计算流的位置"
 
 #: ../../src/wxMaximaFrame.cpp:1119
 #, fuzzy
 msgid "Get position..."
-msgstr "偏差..."
+msgstr "获取位置..."
 
 #: ../../src/wxMaximaFrame.cpp:1637
 msgid "Get the imaginary part of complex expression"
@@ -3562,33 +3570,33 @@ msgstr "Gnuplot 未找到，使用默认程序："
 
 #: ../../src/wxMaxima.cpp:9348 ../../src/wxMaximaFrame.cpp:1909
 msgid "Go to URL"
-msgstr ""
+msgstr "转至URL"
 
 #: ../../src/wxMaxima.cpp:3909
 #, fuzzy
 msgid "Got a new input prompt!"
-msgstr "插入新的数学单元格"
+msgstr "有新的输入提示"
 
 #: ../../src/Worksheet.cpp:6307
 msgid ""
 "Got a request to undo an action that involves a delete which isn't possible "
 "at this moment."
 msgstr ""
-"Got a request to undo an action that involves a delete which isn't possible "
-"at this moment."
+"请求撤销一个包含删除的操作，当前不可行 "
+
 
 #: ../../src/wxMaximaFrame.cpp:1048
 msgid "Gradefs"
-msgstr ""
+msgstr "Gradefs"
 
 #: ../../src/Worksheet.cpp:1920
 #, fuzzy
 msgid "Greater or less than a value"
-msgstr "大于等于"
+msgstr "≥"
 
 #: ../../src/wxMaximaFrame.cpp:1147
 msgid "Greater, ignoring case?..."
-msgstr ""
+msgstr "忽略大小写后,>?"
 
 #: ../../src/wxMaximaFrame.cpp:264
 msgid "Greek Letters"
@@ -3600,7 +3608,7 @@ msgstr "希腊字母\tAlt+Shift+G"
 
 #: ../../src/wxMaximaFrame.cpp:1832
 msgid "Guess an exact number that could be meant by this float"
-msgstr ""
+msgstr "猜测一个确值，以该浮点数表示"
 
 #: ../../src/wxMaxima.cpp:6050
 msgid ""
@@ -3635,6 +3643,7 @@ msgid ""
 "Have only %li keyword anchors at the end of parsing the maxima manual => Not "
 "caching the result of using the built-in keyword list"
 msgstr ""
+"只有 %li 关键字锚定在解析maxima手册的末端=>未缓存使用内置关键字列表的结果"
 
 #: ../../src/Configuration.cpp:89 ../../src/ToolBar.cpp:248
 msgid "Heading 5"
@@ -3749,7 +3758,7 @@ msgstr "如何显示新式子"
 
 #: ../../src/wxMaximaFrame.cpp:1130
 msgid "I/O"
-msgstr ""
+msgstr "写入/写出"
 
 #: ../../src/wxMaxima.cpp:6989
 msgid ""
@@ -3757,6 +3766,7 @@ msgid ""
 "between parenthesis. The result of the last operation is the return value of "
 "the program."
 msgstr ""
+"如果一个程序不需要局部变量maxima允许将命令放在括号中.最后一个运算的结果即为该程序的返回值."
 
 #: ../../src/wxMaxima.cpp:7099
 msgid ""
@@ -3768,13 +3778,17 @@ msgid ""
 "size floating-point numbers), real or any (which is useful for declaring "
 "arrays of any)"
 msgstr ""
-
+"如果函数的形参类型在编译前已知，则代码可以大大优化.\n"
+"已知类型包括:\n"
+"\n"
+"数组, 布尔运算, 整数, fixnum (机器长度整数),浮点数 (机器尺度的浮点数), 实数或任何 (声明 "
+"任何数组也有用)"
 #: ../../src/MathParser.cpp:893
 msgid ""
 "If this isn't a function returning a lambda() expression a multiplication "
 "sign (*) between closing and opening parenthesis is missing here."
 msgstr ""
-
+"如果这不是一个返回lambda()表达式的函数，则闭和开括号之间缺失1个乘号*"
 #: ../../src/MaximaManual.cpp:406
 #, fuzzy
 msgid "Ignoring the cache version for the manual anchors."
@@ -3782,7 +3796,7 @@ msgstr "用户手册所含主题的缓存中没有对应条目。"
 
 #: ../../src/Image.cpp:80
 msgid "Image data had zero length!"
-msgstr ""
+msgstr "图片数据长度为0!"
 
 #: ../../src/wxMaxima.cpp:10069 ../../src/wxMaxima.cpp:10766
 msgid ""
@@ -3794,15 +3808,15 @@ msgstr ""
 
 #: ../../src/Worksheet.cpp:5462
 msgid "ImageCell without image."
-msgstr ""
+msgstr "图片单元中无图片"
 
 #: ../../src/MathParser.cpp:348
 msgid "Importing compressed gnuplot sources for an animation"
-msgstr ""
+msgstr "导入压缩的gnuplot源文件作动画"
 
 #: ../../src/MathParser.cpp:335
 msgid "Importing uncompressed gnuplot sources for an animation"
-msgstr ""
+msgstr "导入未压缩的gnuplot源文件作动画"
 
 #: ../../src/wxMaxima.cpp:7912
 msgid ""
@@ -3818,30 +3832,31 @@ msgid ""
 "In order to save memory the : operator doesn't create an individual copy of "
 "the string, but a clone that changes when the original string changes."
 msgstr ""
-
+"为了保存内存 : 运算符不创建字符串的单独拷贝 "
+"而是创建一个随源头而改变的克隆."
 #: ../../src/wxMaxima.cpp:9549
 msgid "Include columns:"
 msgstr "包含列："
 
 #: ../../src/Worksheet.cpp:1961
 msgid "Increasing function f(x)>x"
-msgstr ""
+msgstr "增函数 f(x)>x"
 
 #: ../../src/wxMaxima.cpp:8390
 msgid "Index End:"
-msgstr "指标结束："
+msgstr "索引结束："
 
 #: ../../src/wxMaxima.cpp:8390
 msgid "Index Start:"
-msgstr "指标开始："
+msgstr "索引开始："
 
 #: ../../src/wxMaxima.cpp:8391
 msgid "Index Step:"
-msgstr "指标步长："
+msgstr "索引步长："
 
 #: ../../src/wxMaxima.cpp:8387 ../../src/wxMaxima.cpp:8400
 msgid "Index variable:"
-msgstr "指标变量："
+msgstr "索引变量："
 
 #: ../../src/wxMaximaFrame.cpp:1970
 msgid "Info about Maxima build"
@@ -3849,18 +3864,19 @@ msgstr "关于 Maxima 的构建信息"
 
 #: ../../src/Worksheet.cpp:1999
 msgid "Inform maxima about facts you know for this symbol"
-msgstr ""
+msgstr "告知maxima你了解这个符号"
 
 #: ../../src/Worksheet.cpp:1941
 msgid ""
 "Inform maxima about the value of the function at a specific point, e.G. for "
 "declaring initial conditions"
 msgstr ""
+"告知maxima该函数在给定点，例如声明的初始条件下的函数值"
 
 #: ../../src/wxMaxima.cpp:7712 ../../src/wxMaxima.cpp:7723
 #, fuzzy
 msgid "Initial Condition"
-msgstr "条件："
+msgstr "初始条件："
 
 #: ../../src/wxMaximaFrame.cpp:1287
 msgid "Initial Value Problem (&1)..."
@@ -3878,7 +3894,7 @@ msgstr "初始估计值："
 #: ../../src/wxMaxima.cpp:7759
 #, fuzzy
 msgid "Initial x:"
-msgstr "初始估计值："
+msgstr "初始x："
 
 #: ../../src/Configuration.cpp:79
 msgid "Input labels"
@@ -3890,23 +3906,23 @@ msgstr "插入"
 
 #: ../../src/wxMaximaFrame.cpp:934
 msgid "Insert &Section Cell\tCtrl+3"
-msgstr "插入节单元格(&S)\tCtrl+3"
+msgstr "插入节(&S)\tCtrl+3"
 
 #: ../../src/wxMaximaFrame.cpp:930
 msgid "Insert &Text Cell\tCtrl+1"
-msgstr "插入文本单元格(&T)\tCtrl+1"
+msgstr "插入文本单元(&T)\tCtrl+1"
 
 #: ../../src/wxMaximaFrame.cpp:739
 msgid "Insert Cell\tAlt+Shift+C"
-msgstr "插入单元格\tAlt+Shift+C"
+msgstr "插入单元\tAlt+Shift+C"
 
 #: ../../src/Worksheet.cpp:1641
 msgid "Insert Heading5 Cell"
-msgstr "插入五级标题单元格"
+msgstr "插入五级标题单元"
 
 #: ../../src/Worksheet.cpp:1643
 msgid "Insert Heading6 Cell"
-msgstr "插入六级标题单元格"
+msgstr "插入六级标题单元"
 
 #: ../../src/wxMaxima.cpp:10765
 msgid "Insert Image"
@@ -3926,67 +3942,67 @@ msgstr "插入分页符"
 
 #: ../../src/wxMaximaFrame.cpp:936
 msgid "Insert S&ubsection Cell\tCtrl+4"
-msgstr "插入小节单元格(&U)\tCtrl+4"
+msgstr "插入小节单元(&U)\tCtrl+4"
 
 #: ../../src/wxMaximaFrame.cpp:939
 msgid "Insert S&ubsubsection Cell\tCtrl+5"
-msgstr "插入小小节单元格(&U)\tCtrl+5"
+msgstr "插入小小节单元(&U)\tCtrl+5"
 
 #: ../../src/Worksheet.cpp:1634
 msgid "Insert Section Cell"
-msgstr "插入节单元格"
+msgstr "插入节单元"
 
 #: ../../src/Worksheet.cpp:1636
 msgid "Insert Subsection Cell"
-msgstr "插入小节单元格"
+msgstr "插入小节单元"
 
 #: ../../src/Worksheet.cpp:1639
 msgid "Insert Subsubsection Cell"
-msgstr "插入小小节单元格"
+msgstr "插入小小节单元"
 
 #: ../../src/wxMaximaFrame.cpp:932
 msgid "Insert T&itle Cell\tCtrl+2"
-msgstr "插入标题单元格(&I)\tCtrl+2"
+msgstr "插入标题单元(&I)\tCtrl+2"
 
 #: ../../src/Worksheet.cpp:1630
 msgid "Insert Text Cell"
-msgstr "插入文本单元格"
+msgstr "插入文本单元"
 
 #: ../../src/Worksheet.cpp:1632
 msgid "Insert Title Cell"
-msgstr "插入标题单元格"
+msgstr "插入标题单元"
 
 #: ../../src/wxMaximaFrame.cpp:942
 msgid "Insert a new heading5 cell"
-msgstr "插入新的五级标题单元格"
+msgstr "插入新的五级标题单元"
 
 #: ../../src/wxMaximaFrame.cpp:944
 msgid "Insert a new heading6 cell"
-msgstr "插入新的六级标题单元格"
+msgstr "插入新的六级标题单元"
 
 #: ../../src/wxMaximaFrame.cpp:929
 msgid "Insert a new input cell"
-msgstr "插入新的数学单元格"
+msgstr "插入新的数学单元"
 
 #: ../../src/wxMaximaFrame.cpp:935
 msgid "Insert a new section cell"
-msgstr "插入新的节单元格"
+msgstr "插入新的节单元"
 
 #: ../../src/wxMaximaFrame.cpp:937
 msgid "Insert a new subsection cell"
-msgstr "插入新的小节单元格"
+msgstr "插入新的小节单元"
 
 #: ../../src/wxMaximaFrame.cpp:940
 msgid "Insert a new subsubsection cell"
-msgstr "插入新的小小节单元格"
+msgstr "插入新的小小节单元"
 
 #: ../../src/wxMaximaFrame.cpp:931
 msgid "Insert a new text cell"
-msgstr "插入新的文本单元格"
+msgstr "插入新的文本单元"
 
 #: ../../src/wxMaximaFrame.cpp:933
 msgid "Insert a new title cell"
-msgstr "插入新的标题单元格"
+msgstr "插入新的标题单元"
 
 #: ../../src/wxMaximaFrame.cpp:946
 msgid "Insert a page break"
