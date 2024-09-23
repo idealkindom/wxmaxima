@@ -4078,17 +4078,17 @@ msgstr ""
 
 #: ../../src/wxMaxima.cpp:7031
 msgid "Interpret maxima's output as input"
-msgstr ""
+msgstr "将maxima的输出理解为输入"
 
 #: ../../src/wxMaxima.cpp:7429
 #, fuzzy
 msgid "Interpret string as maxima code"
-msgstr "中断 Maxima：%s"
+msgstr "将字符串理解为maxima代码"
 
 #: ../../src/wxMaximaFrame.cpp:1106
 #, fuzzy
 msgid "Interpret string..."
-msgstr "未封闭的字符串。"
+msgstr "解读字符串...。"
 
 #: ../../src/ToolBar.cpp:203
 msgid "Interrupt"
@@ -4119,7 +4119,7 @@ msgstr "引入列表中变量的实际值"
 
 #: ../../src/wxMaxima.cpp:9984
 msgid "Introduces one or more assignments into an expression"
-msgstr ""
+msgstr "对表达式引入1个或多个赋值"
 
 #: ../../src/wxMaxima.cpp:8923
 msgid "Inverse Laplace"
@@ -4135,59 +4135,59 @@ msgstr "反转工作簿亮度"
 
 #: ../../src/wxMaxima.cpp:7265
 msgid "Is Char 1 greater than Char2, if case is ignored?"
-msgstr ""
+msgstr "忽略大小写，字符1是否大于字符2?"
 
 #: ../../src/wxMaxima.cpp:7260
 #, fuzzy
 msgid "Is Char 1 greater than Char2?"
-msgstr "远大于"
+msgstr "字符1是否远大于字符2"
 
 #: ../../src/wxMaxima.cpp:7254
 msgid "Is Char 1 less than Char2, if case is ignored?"
-msgstr ""
+msgstr "忽略大小写，字符1是否小于字符2?"
 
 #: ../../src/wxMaxima.cpp:7249
 msgid "Is Char 1 less than Char2?"
-msgstr ""
+msgstr "字符1是否小于字符2"
 
 #: ../../src/wxMaxima.cpp:7207
 msgid "Is a char?"
-msgstr ""
+msgstr "是否是字符?"
 
 #: ../../src/wxMaximaFrame.cpp:1132
 msgid "Is a char?..."
-msgstr ""
+msgstr "是否是字符?..."
 
 #: ../../src/Worksheet.cpp:1905
 #, fuzzy
 msgid "Is a complex variable"
-msgstr "指标变量："
+msgstr "为1个复变量"
 
 #: ../../src/wxMaxima.cpp:7219
 #, fuzzy
 msgid "Is a digit?"
-msgstr "显示算法"
+msgstr "是否为1个数？"
 
 #: ../../src/wxMaximaFrame.cpp:1135
 msgid "Is a digit?..."
-msgstr ""
+msgstr "是否为1个数？..."
 
 #: ../../src/wxMaxima.cpp:7231
 msgid "Is a lowercase char?"
-msgstr ""
+msgstr "是否为1个小写字符?"
 
 #: ../../src/wxMaxima.cpp:7223
 msgid "Is a printable char?"
-msgstr ""
+msgstr "是否为1个可打印字符?"
 
 #: ../../src/Worksheet.cpp:1902
 #, fuzzy
 msgid "Is a real variable"
-msgstr "修改变量"
+msgstr "是否为实变量"
 
 #: ../../src/wxMaxima.cpp:7227
 msgid "Is a uppercase char?"
-msgstr ""
+msgstr "是否为大写字符?"
 
 #: ../../src/wxMaximaFrame.cpp:1133
 msgid "Is alphabetic?..."
